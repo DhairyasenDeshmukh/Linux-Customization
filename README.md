@@ -1,8 +1,8 @@
-🐧 Linux Debian + GNOME Customization & Conky Setup Guide
+# 🐧 Linux Debian + GNOME Customization & Conky Setup Guide
 
 This repository contains setup guides, configuration snippets, and customization steps for Debian 12 (GNOME 43.9), focused on improving user experience, visual appeal, and system performance. It’s especially helpful for new users who want to enhance their desktop with Conky, GNOME Shell Extensions, and essential Debian tweaks.
 
-📁 Repository Contents
+# 📁 Repository Contents
 
 ✅ DebianSetup.txt
 A checklist of essential things to do after a fresh Debian install:
