@@ -5,54 +5,56 @@ This repository contains setup guides, configuration snippets, and customization
 # 📁 Repository Contents
 
 ✅ DebianSetup.txt
-A checklist of essential things to do after a fresh Debian install:
+- A checklist of essential things to do after a fresh Debian install:
+- Package updates
+- Performance improvements (preload)
+- Battery optimization (tlp)
+- NVIDIA driver installation steps
 
-Package updates
-Performance improvements (preload)
-Battery optimization (tlp)
-NVIDIA driver installation steps
-🎨 ExtensionsList.txt
-Detailed list of useful GNOME Shell extensions:
+# 🎨 ExtensionsList.txt
+- Detailed list of useful GNOME Shell extensions:
+- Includes both extensions from Extensions Manager and manual installations
+- Steps to install custom extensions like Activities Filled Pill and ChatGPT Top Bar Panel
+- How to enable GNOME extensions manually
 
-Includes both extensions from Extensions Manager and manual installations
-Steps to install custom extensions like Activities Filled Pill and ChatGPT Top Bar Panel
-How to enable GNOME extensions manually
-📊 InstallaltionConky.txt
-Step-by-step process to install Conky and get custom themes working:
+# 📊 InstallaltionConky.txt
+- Step-by-step process to install Conky and get custom themes working:
 
-Dependencies
-Making conky scripts executable
-Launching Conky themes manually
-🛠 InstallationofConkyManager2.txt
-Guide to installing Conky Manager 2 from source:
+# Dependencies
+- Making conky scripts executable
+- Launching Conky themes manually
 
-Required dependencies
-Building and installing via terminal commands
-Setting up lm-sensors for system monitoring
-🌐 ConkyInternetspeed.txt
-Conky configuration snippet to display real-time internet speed:
+# 🛠 InstallationofConkyManager2.txt
+- Guide to installing Conky Manager 2 from source:
 
-Shows both upload/download speed and graphical display
-Customize network interface (e.g., enp0s3) and position via offset
-🌦 ConkyWeather.txt
-Instructions to integrate OpenWeather API with Conky:
+# Required dependencies
+- Building and installing via terminal commands
+- Setting up lm-sensors for system monitoring
 
-How to edit the weather.sh script
-How to get your API key and city ID
-How to validate weather data and refresh the widget
-🚀 How to Use
+# 🌐 ConkyInternetspeed.txt
+- Conky configuration snippet to display real-time internet speed:
+- Shows both upload/download speed and graphical display
+- Customize network interface (e.g., enp0s3) and position via offset
 
-Start with DebianSetup.txt after a fresh install.
-Install Conky using InstallaltionConky.txt.
-Customize widgets using ConkyInternetspeed.txt and ConkyWeather.txt.
-Install Conky Manager 2 if you prefer a GUI (see InstallationofConkyManager2.txt).
-Customize your GNOME desktop using extensions from ExtensionsList.txt.
-🧠 Requirements
+# 🌦 ConkyWeather.txt
+- Instructions to integrate OpenWeather API with Conky:
+- How to edit the weather.sh script
+- How to get your API key and city ID
+- How to validate weather data and refresh the widget
 
-Debian 12 Bookworm (GNOME 43.9)
-Internet connection (for APIs and extension installation)
-Basic terminal knowledge
-✨ Author
+# 🚀 How to Use
+- Start with DebianSetup.txt after a fresh install.
+- Install Conky using InstallaltionConky.txt.
+- Customize widgets using ConkyInternetspeed.txt and ConkyWeather.txt.
+- Install Conky Manager 2 if you prefer a GUI (see InstallationofConkyManager2.txt).
+- Customize your GNOME desktop using extensions from ExtensionsList.txt.
 
-Dhairyasen Deshmukh
+# 🧠 Requirements
+- Debian 12 Bookworm (GNOME 43.9 or above)
+- Internet connection (for APIs and extension installation)
+- Basic terminal knowledge
+
+# ✨ Author
+
+# Dhairyasen Deshmukh
 Customizing Linux to feel personal and powerful ✨
